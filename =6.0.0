@@ -1,0 +1,19 @@
+Collecting twilio
+  Using cached https://files.pythonhosted.org/packages/14/3a/496dfa4de76974717388f1cfeb1eee70c04e3b8f2b579f31951404207657/twilio-6.40.0.tar.gz
+Requirement already satisfied: six in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from twilio) (1.11.0)
+Requirement already satisfied: pytz in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from twilio) (2019.3)
+Collecting PyJWT>=1.4.2 (from twilio)
+  Using cached https://files.pythonhosted.org/packages/87/8b/6a9f14b5f781697e51259d81657e6048fd31a113229cf346880bb7545565/PyJWT-1.7.1-py2.py3-none-any.whl
+Requirement already satisfied: requests>=2.0.0 in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from twilio) (2.18.4)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from requests>=2.0.0->twilio) (2019.9.11)
+Requirement already satisfied: idna<2.7,>=2.5 in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from requests>=2.0.0->twilio) (2.6)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from requests>=2.0.0->twilio) (3.0.4)
+Requirement already satisfied: urllib3<1.23,>=1.21.1 in /Users/nikdev/opt/anaconda3/lib/python3.7/site-packages (from requests>=2.0.0->twilio) (1.22)
+Building wheels for collected packages: twilio
+  Building wheel for twilio (setup.py): started
+  Building wheel for twilio (setup.py): finished with status 'done'
+  Created wheel for twilio: filename=twilio-6.40.0-py2.py3-none-any.whl size=1129363 sha256=e0511c7c289807fb8c2f853ba3c04a90a98deab51b0226af2bf93fe1e19d798d
+  Stored in directory: /Users/nikdev/Library/Caches/pip/wheels/b8/3a/60/5f6076012adb9db1a6ea897ff9c23268341fdb5dc4c9ea609c
+Successfully built twilio
+Installing collected packages: PyJWT, twilio
+Successfully installed PyJWT-1.7.1 twilio-6.40.0
